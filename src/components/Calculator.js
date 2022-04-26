@@ -1,73 +1,162 @@
 import React from 'react';
 import './calculator.css';
+import Calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {};
+  }
+
+  handleClick = (event) => {
+    this.setState((state) => Calculate(state, event.target.innerText));
+  };
+
   render() {
+    const { next, total } = this.state;
+
     return (
       <div className="calculator flex flex--column">
         <div className="calculator-header">
-          <p className="result">0</p>
+          <p className="result">{next || total || 0}</p>
         </div>
         <div className="calculator-buttons grid">
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             AC
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             +/-
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             %
           </button>
-          <button type="button" className="btn btn--orang">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--orang"
+          >
             &#247;
           </button>
 
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             7
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             8
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             9
           </button>
-          <button type="button" className="btn btn--orang">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--orang"
+          >
             x
           </button>
 
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             4
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             5
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             6
           </button>
-          <button type="button" className="btn btn--orang">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--orang"
+          >
             -
           </button>
 
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             1
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             2
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             3
           </button>
-          <button type="button" className="btn btn--orang">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--orang"
+          >
             +
           </button>
 
-          <button type="button" className="btn btn--gray span">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray span"
+          >
             0
           </button>
-          <button type="button" className="btn btn--gray">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--gray"
+          >
             .
           </button>
-          <button type="button" className="btn btn--orang">
+          <button
+            type="button"
+            onClick={this.handleClick}
+            className="btn btn--orang"
+          >
             =
           </button>
         </div>
