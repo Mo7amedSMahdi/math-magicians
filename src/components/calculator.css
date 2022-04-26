@@ -1,0 +1,36 @@
+.calculator {
+  max-width: 40%;
+  margin-inline: auto;
+  margin-block: 10%;
+
+  --gap: 0;
+}
+
+.calculator-header {
+  background-color: var(--clr-gray);
+  padding: 1rem;
+  color: var(--clr-light);
+}
+
+.calculator-header p {
+  float: right;
+}
+
+.calculator-buttons {
+  grid-template-columns: repeat(4, 1fr);
+
+  --gap: 0;
+}
+
+.calculator-buttons button {
+  padding: 1rem;
+  border: 1px solid var(--clr-gray);
+}
+
+.btn--gray {
+  background: var(--clr-light);
+}
+
+.btn--orang {
+  background: var(--clr-orang);
+}
