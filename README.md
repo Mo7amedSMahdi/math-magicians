@@ -15,12 +15,14 @@ Read a random math-related quote.
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="https://github.com/Mo7amedSMahdi/math-magicians/blob/4c7e89424573d5ee615d41376959332ecfcbb709/src/assets/screenshots/home.png" width="1000" height="500"> |
 
-|                                                                                        **Calculator**                                                                                        |
+|  
+ **Calculator** |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|          <img src="https://github.com/Mo7amedSMahdi/math-magicians/blob/4c7e89424573d5ee615d41376959332ecfcbb709/src/assets/screenshots/calculator.png" width="1000" height="500">           |
-|                                                                                          **Quote**                                                                                           |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|             <img src="https://github.com/Mo7amedSMahdi/math-magicians/blob/4c7e89424573d5ee615d41376959332ecfcbb709/src/assets/screenshots/quote.png" width="1000" height="500">             |
+| <img src="https://github.com/Mo7amedSMahdi/math-magicians/blob/4c7e89424573d5ee615d41376959332ecfcbb709/src/assets/screenshots/calculator.png" width="1000" height="500"> |
+
+|                                                                              **Quote**                                                                               |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/Mo7amedSMahdi/math-magicians/blob/4c7e89424573d5ee615d41376959332ecfcbb709/src/assets/screenshots/quote.png" width="1000" height="500"> |
 
 ## Built With &hearts;
 
