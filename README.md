@@ -20,7 +20,7 @@ Read a random math-related quote.
 
 ## Live Demo
 
-> Soon.
+> [live](https://mo7amedsmahdi.github.io/math-magicians/)
 
 ## Getting Started
 
