@@ -1,9 +1,13 @@
 import './App.css';
 import React from 'react';
-import Calculator from './components/Calculator';
+import Calculator from './components/calculator/Calculator';
+import Nav from './components/navBar/Nav';
 
-function App() {
-  return <Calculator />;
-}
+const App = () => (
+  <>
+    <Nav />
+    <Calculator />
+  </>
+);
 
 export default App;
