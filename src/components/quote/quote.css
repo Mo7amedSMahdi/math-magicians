@@ -1,1 +1,11 @@
-/* stylesheet */
+.quote {
+  width: 100%;
+}
+
+.quote blockquote {
+  font-family: var(--ff-righteous);
+  font-size: 2.25rem;
+  max-width: 48ch;
+  margin-inline: auto;
+  margin-block: 6rem;
+}
