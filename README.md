@@ -33,9 +33,7 @@ Read a random math-related quote.
 
 ## Live Demo
 
-- [live](https://mo7amedsmahdi.github.io/math-magicians/)
-- [Netlify](https://tubular-bonbon-590bdc.netlify.app/)
-- [heroku](https://ms-math-magicians.herokuapp.com/)
+> [live](https://mo7amedsmahdi.github.io/math-magicians/) > [Netlify](https://tubular-bonbon-590bdc.netlify.app/) > [heroku](https://ms-math-magicians.herokuapp.com/)
 
 ## Getting Started
 
