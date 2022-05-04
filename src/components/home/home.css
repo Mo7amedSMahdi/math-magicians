@@ -1,1 +1,13 @@
-/* stylesheet */
+.home {
+  --gap: 2.5rem;
+}
+
+.home h2 {
+  font-family: var(--ff-righteous);
+  font-size: 1.5rem;
+}
+
+.home p {
+  font-family: var(--ff-roboto);
+  font-size: 1.25rem;
+}
