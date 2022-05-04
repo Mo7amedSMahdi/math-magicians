@@ -1,7 +1,14 @@
+.calculator-section h2 {
+  width: 50%;
+  font-family: var(--ff-righteous);
+  font-size: 1.5rem;
+}
+
 .calculator {
-  max-width: 40%;
+  width: 100%;
+  height: 100%;
   margin-inline: auto;
-  margin-block: 10%;
+  flex: 1 0 0;
 
   --gap: 0;
 }
