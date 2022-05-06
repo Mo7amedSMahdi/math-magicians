@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import '@testing-library/jest-dom';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App.js test', () => {
+  test('Renders', () => {
+    const app = render(<App />);
+
+    expect(app).toMatchSnapshot();
+  });
 });

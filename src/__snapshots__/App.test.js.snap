@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js test Renders 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="flex"
+      >
+        <h1>
+          Math Magicians
+        </h1>
+        <nav>
+          <ul
+            class="nav nav--main"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <li>
+              <a
+                href="/quote"
+              >
+                Quote
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section
+          class="home flex flex--column"
+        >
+          <h2>
+            Welcome to our page!
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus tempora fuga reprehenderit nostrum, nemo autem animi sint aliquid quia, temporibus neque laudantium. Incidunt velit culpa mollitia nulla, magnam tempore dolorum cupiditate quibusdam ut inventore ratione, rem ducimus ab cum dolor. Necessitatibus, vitae. Magnam, quam aliquid? Dolore est cupiditate accusantium voluptatem itaque et officia maiores nisi minima qui, aliquid debitis deleniti, consequuntur dolorem earum optio, rem porro obcaecati! Nesciunt nihil sed accusamus ab dolorem distinctio molestias amet sint asperiores vero.
+          </p>
+          <p>
+            Doloremque quas deleniti deserunt debitis a velit, labore ea? Ex ut harum ipsum, repudiandae quae nisi amet quidem maiores unde blanditiis omnis tenetur natus ducimus impedit adipisci facere aperiam! Numquam porro magnam laboriosam ducimus sequi nemo totam sed, doloribus at quibusdam accusantium maiores doloremque dignissimos, debitis sapiente dolores sit exercitationem expedita alias. Nulla iure culpa tenetur accusantium cum ullam, voluptatibus quibusdam quas aliquam asperiores unde soluta porro similique, debitis dolor ea quo quidem odio sit, quod error architecto alias commodi!
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="flex"
+    >
+      <h1>
+        Math Magicians
+      </h1>
+      <nav>
+        <ul
+          class="nav nav--main"
+        >
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/calculator"
+            >
+              Calculator
+            </a>
+          </li>
+          <li>
+            <a
+              href="/quote"
+            >
+              Quote
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="home flex flex--column"
+      >
+        <h2>
+          Welcome to our page!
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus tempora fuga reprehenderit nostrum, nemo autem animi sint aliquid quia, temporibus neque laudantium. Incidunt velit culpa mollitia nulla, magnam tempore dolorum cupiditate quibusdam ut inventore ratione, rem ducimus ab cum dolor. Necessitatibus, vitae. Magnam, quam aliquid? Dolore est cupiditate accusantium voluptatem itaque et officia maiores nisi minima qui, aliquid debitis deleniti, consequuntur dolorem earum optio, rem porro obcaecati! Nesciunt nihil sed accusamus ab dolorem distinctio molestias amet sint asperiores vero.
+        </p>
+        <p>
+          Doloremque quas deleniti deserunt debitis a velit, labore ea? Ex ut harum ipsum, repudiandae quae nisi amet quidem maiores unde blanditiis omnis tenetur natus ducimus impedit adipisci facere aperiam! Numquam porro magnam laboriosam ducimus sequi nemo totam sed, doloribus at quibusdam accusantium maiores doloremque dignissimos, debitis sapiente dolores sit exercitationem expedita alias. Nulla iure culpa tenetur accusantium cum ullam, voluptatibus quibusdam quas aliquam asperiores unde soluta porro similique, debitis dolor ea quo quidem odio sit, quod error architecto alias commodi!
+        </p>
+      </section>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
