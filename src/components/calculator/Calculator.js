@@ -9,8 +9,8 @@ const Calculator = () => {
   };
 
   return (
-    <section className="calculator-section flex">
-      <h2>Lets do math!</h2>
+    <sectoin className="calculator-section flex">
+      <h2>Let&apos;s do math!</h2>
       <div className="calculator flex flex--column">
         <div className="calculator-header">
           <p className="result">{state.next || state.total || 0}</p>
@@ -103,7 +103,7 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-    </section>
+    </sectoin>
   );
 };
 
