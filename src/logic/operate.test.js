@@ -13,7 +13,7 @@ describe('operate tests', () => {
     const result = operate(20, 10, '÷');
     expect(result).toBe('2');
   });
-  test('should modulo 10 % 5 return 0', () => {
+  test('should mode 10 % 5 return 0', () => {
     const result = operate(10, 5, '%');
     expect(result).toBe('0');
   });
