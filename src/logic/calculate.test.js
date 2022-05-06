@@ -33,4 +33,11 @@ describe('calculate tests', () => {
     result = calculate(result, '=');
     expect(result.total).toBe('-3');
   });
+  test('should return 2, 8/4', () => {
+    let result = calculate({}, '8');
+    result = calculate(result, '÷');
+    result = calculate(result, '4');
+    result = calculate(result, '=');
+    expect(result.total).toBe('2');
+  });
 });

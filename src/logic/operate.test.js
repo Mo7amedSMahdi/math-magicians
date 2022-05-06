@@ -22,4 +22,8 @@ describe('operate tests', () => {
     const result = operate(70, 20, '-');
     expect(result).toBe('50');
   });
+  test('should divide 9 by 3', () => {
+    const result = operate(9, 3, '÷');
+    expect(result).toBe('3');
+  });
 });
