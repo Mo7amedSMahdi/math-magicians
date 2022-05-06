@@ -22,4 +22,8 @@ describe('operate tests', () => {
     const result = operate(70, 20, '-');
     expect(result).toBe('50');
   });
+  test('should return 2 4/2', () => {
+    const result = operate(4, 2, '÷');
+    expect(result).toBe('2');
+  });
 });
