@@ -2,7 +2,7 @@
 
 # Math Magicians
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+"Math magicians" is a small website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.
@@ -33,7 +33,7 @@ Read a random math-related quote.
 
 ## Live Demo
 
-> [live](https://mo7amedsmahdi.github.io/math-magicians/)
+> [live](https://mo7amedsmahdi.github.io/math-magicians/) > [Netlify](https://tubular-bonbon-590bdc.netlify.app/) > [heroku](https://ms-math-magicians.herokuapp.com/)
 
 ## Getting Started
 
